@@ -13,11 +13,11 @@ class Migration(migrations.Migration):
         migrations.AlterField(
             model_name='pokemon',
             name='title_en',
-            field=models.CharField(blank=True, max_length=200, null=True, verbose_name='название (англ.)'),
+            field=models.CharField(blank=True, max_length=200, verbose_name='название (англ.)'),
         ),
         migrations.AlterField(
             model_name='pokemon',
             name='title_jp',
-            field=models.CharField(blank=True, max_length=200, null=True, verbose_name='название (яп.)'),
+            field=models.CharField(blank=True, max_length=200, verbose_name='название (яп.)'),
         ),
     ]
